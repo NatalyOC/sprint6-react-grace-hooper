@@ -16,7 +16,7 @@ Crear la página de Grace Hooper desarrollada en el Sprint 2 con React.
 Desarrollo:
 
 Hemos creado la carpeta llamada components dentro de src donde tendremos los 3 componentes creados:
-![](https://ibb.co/keUu57)
+![screencapture_2](https://user-images.githubusercontent.com/32288071/36979302-06187f76-2055-11e8-9884-531056c92dcd.png)
 
 
 **1. App.js Es el componente principal que contendrá a todos nuestros componentes: header,main y aside.**
