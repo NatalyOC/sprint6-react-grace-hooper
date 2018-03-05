@@ -1,0 +1,26 @@
+.summary-table{
+  border: 1px solid#a2a9b1;
+  background-color: #f8f9fa;
+  padding: 1px;
+  font-size: 14px;
+}
+.summary-table thead th{
+  background-color: #B0B4DE;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 16px;
+
+}
+.summary-table tbody tr:first-child{
+  text-align: center; 
+}
+.summary-table tbody th{
+  text-align: left;
+  
+}
+h3{
+  padding:5px;
+}
+li{
+  margin: 3px
+}
