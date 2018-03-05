@@ -10,29 +10,40 @@
 Crear la página de Grace Hooper desarrollada en el Sprint 2 con React.
 
 **Grace Hooper React**
-![](https://ibb.co/gYZDXn)
+![gracehooper-react](https://user-images.githubusercontent.com/32288071/36979064-566bb44e-2054-11e8-9c4e-315b249dbda0.png)
 
 
 Desarrollo:
 
 Hemos creado la carpeta llamada components dentro de src donde tendremos los 3 componentes creados:
 ![](https://ibb.co/keUu57)
+
+
 **1. App.js Es el componente principal que contendrá a todos nuestros componentes: header,main y aside.**
-### `Header.js`
+
+### `App.js`
 ```js
 import React, { Component } from 'react';
-import './css/Header.css';
+import './App.css';
 
-const Header = () => {
-  return (
-    <header>
-    <h1>Grace Hooper</h1>
-    <hr />
-  </header>
-  );
-};
+//Components
+import Header from './components/Header'
+import Main from './components/Main'
+import Aside from './components/Aside'
 
-export default Header;    
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Header />
+        <Main />
+        <Aside />
+      </div>
+    );
+  }
+}
+
+export default App;
 ```
 
 **2.**
